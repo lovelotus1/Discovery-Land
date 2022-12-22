@@ -1,0 +1,294 @@
+.Header {
+    width: 100vw;
+    height: 60vh;
+    overflow: hidden;
+    
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://dxaurk9yhilm4.cloudfront.net/images/7383/jael-rodriguez-AkF5NT0sZy8-unsplash-1-1_210301_200939_35d31212c7a2d4dccdff99afa3f88af5.jpg");
+}
+
+.Gallery {
+    color: rgb(243, 235, 235);
+    width: 30vw;
+    height: 10vh;
+    font-size: 7vw;
+    margin-top: 10%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    
+    /* margin-left: -10%; */
+    position: relative ;
+    
+  
+
+}
+
+
+.nav-bar {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid green;
+    
+ 
+}
+.nav-bar1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 0px solid green;
+}
+.nav-link {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 15%;
+
+}
+
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    padding: 30px 18px;
+}
+
+.middle-container {
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0px solid green;
+    background-color: rgb(26, 23, 23);
+
+}
+
+/* .image-class {
+    display: flex;
+    flex-direction: column;
+    
+    
+} */
+
+/* .cards {
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+  
+} */
+
+.exp-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 33.2%;
+    overflow: hidden;
+    border: 0px solid rgb(28, 0, 128);
+
+}
+
+.image {
+    width: 100%;
+    max-height: 100%;
+}
+.img-child{
+    width: 100%;
+    height: 70%;
+}
+
+.title-button {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    /* position: relative; */
+    /* bottom: 90%; */
+    height: 30%;
+    width: 100%;
+    /* margin-left: 30%; */
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+
+}
+
+.footer-cont {
+    width: 100vw;
+    height: 50vh;
+    border: 0px solid red;    
+    display: flex;
+    flex-direction: row;
+    background-color: #161f1e;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+.logoFooter {
+    width: 45%;
+    height: 100%;
+    border: 0px solid rgb(0, 195, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.footerImg {
+    width: 20%;
+    height: 45%;
+    border: 0px solid blue;
+}
+.img {
+    width: 60px;
+}
+.footer-Child{
+    width: 80%;
+    height: 100%;
+    border: 0px solid rgb(51, 255, 0);
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+}
+.footer-Child1 {
+    width: 33.2%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    border: 0px solid rgb(0, 183, 255);    
+    color: white;    
+    line-height: 2em;
+}
+.footer-btm {
+    width: 100vw;
+    height: 15vh;
+    border: 0px solid yellow;
+    display: flex;
+    justify-content: center;
+    background-color: #161f1e;
+}
+
+.footer-btm1 {
+    width: 62%;
+    color: #e9f8f7; 
+}
+
+
+
+@media only screen and (min-width:  320px) and (max-width:480px) {
+    .nav-bar{
+        display: none;
+        
+       
+    }
+    .Header{
+        height:30vh ;
+    }
+    .middle-container {
+        height: auto;
+        width: 100vw;
+    }
+    .exp-box{
+        width: 100%;
+        height: 33vh;
+    }
+    .footer-cont{
+        width: 100vw;
+    }
+    .footer-Child{
+        width: 80%;
+
+    }
+    .footerImg{
+        width: 20%;
+    }
+    .img {
+        width: 30px;
+    }
+    .footer-Child1 {
+        width: 33.2%;
+    }
+}
+@media only screen and (min-width:  481px) and (max-width:768px) {
+    .nav-bar{
+        display: none;
+        
+       
+    }
+    .Header{
+        height:30vh ;
+    }
+    .middle-container {
+        height: auto;
+        width: 100vw;
+    }
+    .exp-box{
+        width: 50%;
+        height: 33vh;
+    }
+    .footer-cont{
+        width: 100vw;
+    }
+    .footer-Child{
+        width: 80%;
+
+    }
+    .footerImg{
+        width: 20%;
+    }
+    .img {
+        width: 60px;
+    }
+    .footer-Child1 {
+        width: 33.2%;
+    }
+}
+@media only screen and (min-width:  769px) and (max-width:1024px) {
+    .nav-bar{
+        display: none;
+        
+       
+    }
+    .Header{
+        height:30vh ;
+    }
+    .middle-container {
+        height: auto;
+        width: 100vw;
+    }
+    .exp-box{
+        width: 33.33%;
+        height: 33vh;
+    }
+    .footer-cont{
+        width: 100vw;
+    }
+    .footer-Child{
+        width: 80%;
+
+    }
+    .footerImg{
+        width: 20%;
+    }
+    .img {
+        width: 60px;
+    }
+    .footer-Child1 {
+        width: 33.2%;
+    }
+    
+}

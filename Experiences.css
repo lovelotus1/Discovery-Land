@@ -1,0 +1,558 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid green; */
+}
+
+/* Css for header part: it contains video, navbar and text "Discover your work" */
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 0px solid blue;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    position: relative;
+}
+
+
+.header-container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 95%;
+    height: 15%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.logo-text1 {
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    width: 15vw;
+
+
+}
+
+.logo-text2 {
+    font-size: 0.9em;
+    color: #fff;
+    opacity: 0.8;
+    width: 15vw;
+    text-align: end;
+
+
+}
+
+.nav-bar {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.nav-link {
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    margin: 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    opacity: 1;
+    justify-content: space-around;
+
+
+}
+
+.sometext {
+    position: relative;
+    bottom: 80%;
+    left: 15%;
+    width: fit-content;
+    font-size: 80px;
+    color: #fff;
+    opacity: 0.9;
+    font-weight: 300;
+
+
+}
+
+.intro {
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: .5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 33px;
+    line-height: 1.4;
+    word-spacing: 2px;
+}
+
+
+.bt-main-head {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.white-section-text {
+    width: 25%;
+    height: 70%;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.white-section-img {
+    width: 40%;
+    height: 95%;
+}
+
+.white-section-text-heading {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+
+}
+
+.white-section-text-para {
+    line-height: 1.5;
+    color: #777
+}
+
+.mainContainer {
+    width: 100vw;
+    height: 420vh;
+    background-color: rgb(249, 242, 242);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.childcontainer {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.topgrey {
+    width: 68%;
+    height: 75%;
+    background-color: grey;
+    position: absolute;
+    z-index: 1;
+    left: 120px;
+    top: 200px;
+}
+
+.topimg {
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    right: 400px;
+    top: 0px;
+    z-index: 2;
+
+}
+
+.topwhite {
+    width: 545px;
+    height: 50%;
+    position: absolute;
+    right: 162px;
+    top: 130px;
+    z-index: 3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.midgrey {
+    width: 70%;
+    height: 75%;
+    background-color: rgba(107, 93, 93, 0.774);
+    position: absolute;
+    z-index: 1;
+    right: 150px;
+    top: 200px;
+}
+
+.midimg {
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    z-index: 2;
+}
+
+.midwhite {
+    width: 545px;
+    height: 50%;
+    position: absolute;
+    left: 162px;
+    top: 130px;
+    z-index: 3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottomgrey {
+    width: 70%;
+    height: 75%;
+    background-color: grey;
+    position: absolute;
+    z-index: 1;
+    left: 250px;
+    top: 200px;
+}
+
+.bottomimg {
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    right: 410px;
+    top: 0px;
+    z-index: 2;
+
+}
+
+.bottomwhite {
+    width: 540px;
+    height: 50%;
+    position: absolute;
+    right: 80px;
+    top: 130px;
+    z-index: 3;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.imgHead {
+    width: 75%;
+    height: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    line-height: ;
+    display: flex;
+    top: 10px;
+    align-items: flex-start;
+
+}
+
+.para {
+    width: 75%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    line-height: 1.2;
+    color: rgb(132, 131, 131);
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.mainBtn {
+    width: 75%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#btn {
+    width: 40%;
+    height: 60%;
+    bottom: 30px;
+    background: transparent;
+    border: 1px solid rgb(128, 119, 119);
+    color: gray;
+    font-size: medium;
+}
+
+.our_world-section {
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#imgId {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.8;
+
+}
+
+.textourWorld {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textId {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+
+#button {
+    width: 23%;
+    height: 23%;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: medium;
+}
+
+.footer-container {
+    background-color: #111a1d;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 100vw;
+    height: 70vh;
+    justify-content: space-around;
+
+}
+
+.footer-item-logo {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+
+.footer-items {
+    display: flex;
+}
+
+#footer-logo {
+    height: 30%;
+    width: 20%;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.links {
+    margin-bottom: 50px;
+}
+
+.contact-info,
+.link,
+.page {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    opacity: 0.5;
+    width: 50%;
+    position: relative;
+    left: 9%;
+    bottom: 10%;
+}
+@media only screen and (min-width: 320px) and (max-width:480px) {
+    .nav-bar {
+        display: none;
+
+
+    }
+
+    .header-container {
+        width: 100vw;
+       
+       
+    }
+    .logo{
+        width: 15%;
+    }
+    .logo-container{
+        width: 45%;
+        border: 2px solid red;
+    }
+    .logo-text2{
+        width: 100%;
+    }
+    .sometext{
+        width: 100%;
+        border: 2px solid red;
+    }
+    .bt-main-head{
+        height: auto;
+        width: 100vw;
+    }
+    .white-section-text{
+        width: 100%;
+        height: 50vh;
+    }
+    .white-section-img{
+        width: 100%;
+        height: 50vh;
+       
+    }
+
+    
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    .nav-bar {
+        display: none;
+
+
+    }
+
+    .Header {
+        height: 30vh;
+    }
+
+    .sometext {
+        height: auto;
+        width: 20vw;
+    }
+
+    .child-card {
+        width: 30%;
+        height: 33vh;
+    }
+
+    .card-img {
+        height: 45%;
+        width: 95%;
+
+    }
+
+    .card-info {
+        height: 45%;
+        line-height: 15px;
+    }
+
+    .footer-cont {
+        width: 100vw;
+    }
+
+    .footer-Child {
+        width: 80%;
+
+    }
+
+    .footerImg {
+        width: 20%;
+    }
+
+    .img {
+        width: 60px;
+    }
+
+    .footer-Child1 {
+        width: 33.2%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+    .nav-bar {
+        display: none;
+
+
+    }
+
+    .Header {
+        height: 30vh;
+    }
+
+    .section-container {
+        height: auto;
+        width: 100vw;
+    }
+
+    .child-card {
+        height: 35vh;
+        width: 23%;
+    }
+
+    .card-img {
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .card-info {
+        height: 30%;
+        line-height: 15px;
+    }
+
+    .footer-cont {
+        width: 100vw;
+    }
+
+    .footer-Child {
+        width: 80%;
+
+    }
+
+    .footerImg {
+        width: 20%;
+    }
+
+    .img {
+        width: 60px;
+    }
+
+    .footer-Child1 {
+        width: 33.2%;
+    }
+
+}
